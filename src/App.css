@@ -1,0 +1,47 @@
+.main-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+}
+
+.form-container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.title-form {
+  display: block;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.input-form {
+  box-sizing: border-box;
+  height: 30px;
+  padding: 0px 10px;
+}
+
+.ok-btn {
+  box-sizing: border-box;
+  width: 50px;
+  height: 30px;
+}
+
+.list {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
